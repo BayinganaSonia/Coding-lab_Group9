@@ -1,5 +1,7 @@
 Hospital Data Monitoring & Archival System
+
 Overview
+
 This project is designed to automate log management for hospital patient health metrics and resource usage. It uses interactive shell scripts and Linux command-line tools to handle real-time data collection, structured archival, and intelligent analysis.
 
 Features & Functionality
