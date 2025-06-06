@@ -79,4 +79,4 @@ Log Management & Automation: Timestamped archival, structured organization.
 
 Data Analysis with CLI Tools: Extracting device statistics, report generation.
 
-This system simplifies hospital data monitoring while ensuring efficient archival and analysis. 🚀 Happy coding!
+This system simplifies hospital data monitoring while ensuring efficient archival and analysis.
