@@ -1,6 +1,7 @@
 #!/bin/bash
 echo "Select log type to archive:"
 
+
 echo "1) heart_rate.log"
 echo "2) temperature.log"
 echo "3) water_usage.log"
@@ -9,13 +10,13 @@ read -p "Enter option [1-3]: " answer
 time=$(date +%Y-%m-%d_%H-%M-%S)
 if [[ "$answer" == "1" ]]; then
 	ARCHIVE="heart_data_archive"
-	FILE="heart_rate.log"
+	FILE="heart_rate_log.log"
 elif [[ "$answer" == "2" ]]; then 
 	ARCHIVE="temperature_data_archive"
-	FILE="temperature.log"
+	FILE="temperature_log.log"
 elif [[ "$answer" == "3" ]]; then
 	ARCHIVE="water_usage_data_archive"
-	FILE="water_usage.log"
+	FILE="water_usage_log.log"
 else
        	echo "Invalid! Please select 1, 2 or 3"
 	exit 1
