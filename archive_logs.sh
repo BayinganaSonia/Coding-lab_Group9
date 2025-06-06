@@ -1,4 +1,5 @@
-#!/bin/becho "Select log type to archive:"
+#!/bin/bash
+echo "Select log type to archive:"
 
 echo "1) heart_rate.log"
 echo "2) temperature.log"
